@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, form button {
+    padding: 12px;
+}
+
+form input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(5, 144, 16);
+    border-right: 0px;
+}
+
+form button {
+    display: flex;
+    background: rgb(5, 144, 16);
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(5, 144, 16);
+    border-left: 0px;
+}
